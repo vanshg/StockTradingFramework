@@ -7,11 +7,11 @@ from typing import Type, Dict
 
 import schedule
 
-from stf.brokerages import AlpacaBrokerage
-from stf.brokerages import AlpacaPaperBrokerage
+from stf.brokerages.AlpacaBrokerage import AlpacaBrokerage
+from stf.brokerages.AlpacaPaperBrokerage import AlpacaPaperBrokerage
 from stf.brokerages.Brokerage import Brokerage
 from stf.brokerages.DryRunBrokerage import DryRunBrokerage
-from stf.strategies import Strategy
+from stf.strategies.Strategy import Strategy
 
 
 class Trader:

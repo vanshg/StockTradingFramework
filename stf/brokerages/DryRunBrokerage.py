@@ -1,7 +1,7 @@
 import logging
 
 from stf.brokerages.Brokerage import Brokerage
-from stf.models import Position
+from stf.models.Position import Position
 
 
 class DryRunBrokerage(Brokerage):

@@ -6,7 +6,7 @@ from alpaca_trade_api import entity
 from alpaca_trade_api.rest import APIError
 
 from stf.brokerages.Brokerage import Brokerage
-from stf.models import Position
+from stf.models.Position import Position
 
 
 class AlpacaBrokerage(Brokerage):

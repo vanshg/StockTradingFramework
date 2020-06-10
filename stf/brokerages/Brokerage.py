@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from stf.models import Position
+from stf.models.Position import Position
 
 
 class Brokerage(ABC):

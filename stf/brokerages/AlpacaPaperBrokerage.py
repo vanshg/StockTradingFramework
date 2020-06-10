@@ -1,4 +1,4 @@
-from stf.brokerages import AlpacaBrokerage
+from stf.brokerages.AlpacaBrokerage import AlpacaBrokerage
 
 
 class AlpacaPaperBrokerage(AlpacaBrokerage):
