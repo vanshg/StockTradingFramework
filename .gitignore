@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.egg-info
+*.egg
+dist/
+venv/
+build/
+
+# Logs and configuration
+log
+logs/
+stf/config/*
+!stf/config/README.md
+
+# IDE
+.idea/
+.vscode
